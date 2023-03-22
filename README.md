@@ -34,17 +34,17 @@ Contents of file:\
 London Bridge is falling down,\
 Falling down, falling down,\
 London Bridge is falling down,\
-My fair Lady.\
+My fair Lady.
 
 Build it up with wood and clay,\
 Wood and clay, wood and clay,\
 Build it up with wood and clay,\
-My fair Lady.\
+My fair Lady.
 
 Wood and clay will wash away,\
 Wash away, wash away,\
 Wood and clay will wash away,\
-My fair Lady.\
+My fair Lady.
 
 Enter the name of output file: Output_2.txt
 
@@ -66,4 +66,124 @@ up	2\
 wash	4\
 will	2\
 with	2\
-wood	6\
+wood	6
+
+## Test Cases
+### Test Case 1: Text with Special Characters and lot of unnecessary punctuation
+Contents of File:/ 
+"ApPle@ baLL Cat dog cAt#Apple.dog.wiN"
+
+Expected Output is:\
+apple	2\
+ball	1\
+cat	2\
+dog	2\
+win	1
+
+### Test Case 2: Input File Doesn't Exist
+Contents of File:\
+No File of that name
+
+Expected Output is:\
+File not found
+
+### Test Case 3: Text in form of a Paragraph
+Contents of File:/ 
+"Last week we installed a kitty door so that our cat could come and go as she pleases. Unfortunately, we ran into a problem. Our cat was afraid to use the kitty door. We tried pushing her through, and that caused her to be even more afraid. The kitty door was dark, and she couldn’t see what was on the other side. The first step we took in solving this problem was taping the kitty door open. After a couple of days, she was confidently coming and going through the open door. However, when we removed the tape and closed the door, once again, she would not go through. They say you catch more bees with honey, so we decided to use food as bait. We would sit next to the kitty door with a can of wet food and click the top of the can. When kitty came through the closed door, we would open the can and feed her. It took five days of doing this to make her unafraid of using the kitty door."
+
+Expected Output is:\
+a	4\
+afraid	2\
+after	1\
+again	1\
+and	7\
+as	2\
+bait	1\
+be	1\
+bees	1\
+came	1\
+can	3\
+cat	2\
+catch	1\
+caused	1\
+click	1\
+closed	2\
+come	1\
+coming	1\
+confidently	1\
+could	1\
+couldn	1\
+couple	1\
+dark	1\
+days	2\
+decided	1\
+doing	1\
+door	9\
+even	1\
+feed	1\
+first	1\
+five	1\
+food	2\
+go	2\
+going	1\
+her	4\
+honey	1\
+however	1\
+in	1\
+installed	1\
+into	1\
+it	1\
+kitty	7\
+last	1\
+make	1\
+more	2\
+next	1\
+not	1\
+of	5\
+on	1\
+once	1\
+open	3\
+other	1\
+our	2\
+pleases	1\
+problem	2\
+pushing	1\
+ran	1\
+removed	1\
+say	1\
+see	1\
+she	4\
+side	1\
+sit	1\
+so	2\
+solving	1\
+step	1\
+t	1\
+tape	1\
+taping	1\
+that	2\
+the	14\
+they	1\
+this	2\
+through	4\
+to	5\
+took	2\
+top	1\
+tried	1\
+unafraid	1\
+unfortunately	1\
+use	2\
+using	1\
+was	5\
+we	8\
+week	1\
+wet	1\
+what	1\
+when	2\
+with	2\
+would	3\
+you	1
+
+## User Guide
+The program helps to find out the one of the most important aspect in a text file, which is it's Concordance. It will also prompt the user to provide the name
+of the output file. The program will then print the concordance list in the output file and provide the user with a confirmation of the same.
