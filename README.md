@@ -18,8 +18,32 @@ The last stage in generating a concordance is saving the unique terms and their 
 
 ### Input Output Description
 For input we read data in a text file and store it in a dynamic array. If the file doesn’t exist, an error message is shown, otherwise, it shows After a series of operations, all delimiters are removed and all lowercase unique words are printed alongside with their respective frequencies on the output screen and into another file which is created by the user. 
+
 The following explains how the program executes:\
 Enter the name of the input file\
 abc.txt\
 Enter the name of the output file\
 xyz.txt
+
+The following explains how the program executes.\
+
+Enter name of file: Second_test.txt (User enters name of input file)\
+_File Found_ (Printing the confirmation message that file is found)\
+
+Contents of file: 
+London Bridge is falling down,
+Falling down, falling down,
+London Bridge is falling down,
+My fair Lady.
+
+Build it up with wood and clay,
+Wood and clay, wood and clay,
+Build it up with wood and clay,
+My fair Lady.
+
+Wood and clay will wash away,
+Wash away, wash away,
+Wood and clay will wash away,
+My fair Lady.
+
+Enter the name of output file: Output_2.txt\
