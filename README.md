@@ -25,25 +25,45 @@ abc.txt\
 Enter the name of the output file\
 xyz.txt
 
-The following explains how the program executes.\
+The following explains how the program executes.
 
 Enter name of file: Second_test.txt (User enters name of input file)\
-_File Found_ (Printing the confirmation message that file is found)\
+_File Found_ (Printing the confirmation message that file is found)
 
-Contents of file: 
-London Bridge is falling down,
-Falling down, falling down,
-London Bridge is falling down,
-My fair Lady.
+Contents of file:\
+London Bridge is falling down,\
+Falling down, falling down,\
+London Bridge is falling down,\
+My fair Lady.\
 
-Build it up with wood and clay,
-Wood and clay, wood and clay,
-Build it up with wood and clay,
-My fair Lady.
+Build it up with wood and clay,\
+Wood and clay, wood and clay,\
+Build it up with wood and clay,\
+My fair Lady.\
 
-Wood and clay will wash away,
-Wash away, wash away,
-Wood and clay will wash away,
-My fair Lady.
+Wood and clay will wash away,\
+Wash away, wash away,\
+Wood and clay will wash away,\
+My fair Lady.\
 
-Enter the name of output file: Output_2.txt\
+Enter the name of output file: Output_2.txt
+
+Contents of Output_2.txt
+and   6\
+away  4\
+bridge  2\
+build	 2\
+clay  6\
+down	4\
+fair	3\
+falling	 4\
+is	2\
+it	2\
+lady	3\
+london	2\
+my	3\
+up	2\
+wash	4\
+will	2\
+with	2\
+wood	6\
