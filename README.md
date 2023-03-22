@@ -48,7 +48,7 @@ My fair Lady.
 
 Enter the name of output file: Output_2.txt
 
-Contents of Output_2.txt
+Contents of Output_2.txt\
 and   6\
 away  4\
 bridge  2\
