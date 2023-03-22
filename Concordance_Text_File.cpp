@@ -1,9 +1,7 @@
 /*
 Author - Adit Chopra
 Date created- 8 November, 2021
-Assignment 3: Concordance of a Text File
-ENGR-UH-1000 Computer Programming for Engineers
-Problem:
+Problem Statement:
 Our objective is to develop a program which accepts a text file's name from the user and processes it to produce a concordance: an alphabetical listing of unique words and 
 their frequency in the text file. This is stored in an output file and is displayed on output screen.
 */
